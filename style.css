@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: black; /* Light blue background */
+  color: #333;
+}
+.keywordpublic{
+    color: lightblue;
+  }
+  .keywordpublic2{
+    color: lightblue;
+  }
+  .keywordmain{
+    color: red;
+  }
+  .keywordbrace{
+    color: gray;
+  }
+  .keywordprint{
+    color: lightgreen;
+  }
+ 
+  .s{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    color: black;
+    border: 2px solid aquamarine;
+    letter-spacing: 3px;
+  }
+  .s .droppable{
+    border: 1px solid aqua;
+    width: 80px;
+    height: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .draggableContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid aqua;
+    margin: 10px;
+    
+}
+.box{
+  margin: 20px;
+  
+  font-size: 20px;
+}
+.box:hover{
+  color: aqua;
+}
+.correct{
+    color: green;
+}
+.wrong{
+  color: red;
+}
+.board {
+  position: absolute;
+  top: 23%;
+  left: 0;
+  line-height: 20px;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 2px solid #1976d2;
+  border-radius: 8px;
+  width: 180px;
+  text-align: center;
+  color: #333;
+}
+code{
+  color: white;
+  line-height: 40px;
+  margin: 20px;
+}
+h2{
+  font-style: italic;
+  color: white;
+  text-align: center;
+}
+
+
+
